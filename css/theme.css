@@ -14,7 +14,7 @@ html,body {
 
 
 /*---------------------------------------
-    Typorgraphy              
+    Typorgraphy
 -----------------------------------------*/
 
 h1,h2,h3,h4,h5,h6 {
@@ -74,6 +74,10 @@ p {
     letter-spacing: 0.2px;
 }
 
+.strong-p {
+	color: black;
+}
+
 .section-btn {
   background-color: transparent;
   border: 3px solid #232B2B;
@@ -110,18 +114,18 @@ p {
 }
 
 #about,
-#service,
+#features,
 #experience,
-#education,
+#enterprise,
 #contact {
   position: relative;
 }
 
 #home .container,
-#about .container, 
+#about .container,
 #experience .container,
-#service .container,
-#education .container,
+#features .container,
+#enterprise .container,
 #contact .container {
   width: 100%;
   padding: 0;
@@ -129,18 +133,18 @@ p {
 }
 
 #experience .experience-thumb,
-#education .education-thumb  {
+#enterprise .enterprise-thumb  {
   padding: 22px 42px 42px 42px;
 }
 
-#service,
+#features,
 #quotes,
 footer {
   text-align: center;
 }
 
 #experience,
-#education {
+#enterprise {
   background: #E9724C;
 }
 
@@ -180,7 +184,7 @@ footer {
 
 
 /*---------------------------------------
-    General               
+    General
 -----------------------------------------*/
 
 html{
@@ -215,7 +219,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Preloader section              
+    Preloader section
 -----------------------------------------*/
 
 .preloader {
@@ -265,7 +269,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Navigation section              
+    Navigation section
 -----------------------------------------*/
 
 .custom-navbar {
@@ -325,7 +329,7 @@ a:hover, a:active, a:focus {
     .custom-navbar {
         padding: 12px 0;
         border-bottom: 0;
-        background: 0 0; 
+        background: 0 0;
     }
     .custom-navbar.top-nav-collapse {
         background: #ffffff;
@@ -338,7 +342,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Home section              
+    Home section
 -----------------------------------------*/
 
 #home h1 {
@@ -376,7 +380,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-   About section              
+   About section
 -----------------------------------------*/
 
 #about .about-img {
@@ -411,81 +415,32 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Service section              
+    Features section
 -----------------------------------------*/
 
-#service {
+#features {
   background: #E9724C;
 }
 
-#service p {
+#features p {
   font-size: 18px;
   line-height: 30px;
 }
 
-#service .service-thumb {
+#features .features-thumb {
   padding: 52px 22px 52px 22px;
 }
 
-#service .service-thumb .fa {
+#features .features-thumb .fa {
   font-size: 42px;
   padding-bottom: 22px;
 }
 
 
 
-/*---------------------------------------
-    Experience section              
------------------------------------------*/
-
-#experience .experience-img {
-  background: url('../images/experience-img.jpg') no-repeat;
-}
-
-#experience .media-heading {
-  margin-bottom: 0px;
-}
-
-#experience .media .fa {
-  font-size: 42px;
-  margin-right: 14px;
-}
-
-#experience small {
-  color: #633;
-  font-weight: bold;
-}
 
 /*---------------------------------------
-    Education section              
------------------------------------------*/
-
-#education {
-  background: #E3AE57;
-}
-
-#education .education-img {
-  background: url('../images/education-img.jpg') no-repeat;
-}
-
-#education .media-heading {
-  margin-bottom: 0px;
-}
-
-#education .media .fa {
-  font-size: 42px;
-  margin-right: 14px;
-}
-
-#education small {
-  color: #886D1E;
-  font-weight: bold;
-}
-
-
-
-/*---------------------------------------
-   Quotes section              
+   Quotes section
 -----------------------------------------*/
 
 #quotes {
@@ -517,8 +472,63 @@ a:hover, a:active, a:focus {
 }
 
 
+
 /*---------------------------------------
-    Contact section              
+    Experience section
+-----------------------------------------*/
+
+#experience .experience-img {
+  background: url('../images/experience-img.jpg') no-repeat;
+}
+
+#experience .media-heading {
+  margin-bottom: 0px;
+}
+
+#experience .media .fa {
+  font-size: 42px;
+  margin-right: 14px;
+}
+
+#experience small {
+  color: #633;
+  font-weight: bold;
+}
+
+/*---------------------------------------
+    enterprise section
+-----------------------------------------*/
+
+#enterprise {
+  background: #E3AE57;
+}
+
+#enterprise .laptop-img {
+  background: url('../images/growth.jpg') no-repeat;
+	background-size: auto;
+
+
+}
+
+#enterprise .media-heading {
+  margin-bottom: 0px;
+}
+
+#enterprise .media .fa {
+  font-size: 42px;
+  margin-right: 14px;
+}
+
+#enterprise small {
+  color: #886D1E;
+  font-weight: bold;
+}
+
+
+
+
+/*---------------------------------------
+    Contact section
 -----------------------------------------*/
 
 #contact {
@@ -532,7 +542,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact .contact-img {
-  background: url('../images/contact-img.jpg') no-repeat;
+  background: url('../images/egg.jpg') no-repeat;
   min-height: 75vh;
 }
 
@@ -587,7 +597,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-   Footer section              
+   Footer section
 -----------------------------------------*/
 
 footer {
@@ -597,7 +607,7 @@ footer {
 
 
 /*---------------------------------------
-   Social icon             
+   Social icon
 -----------------------------------------*/
 
 .social-icon {
@@ -639,7 +649,7 @@ footer {
 
 
 /*---------------------------------------
-   Mobile Responsive         
+   Mobile Responsive
 -----------------------------------------*/
 
 @media only screen and (max-width: 580px) {
@@ -670,10 +680,10 @@ footer {
   }
 
   #home .container,
-  #about .container, 
+  #about .container,
   #experience .container,
-  #service .container,
-  #education .container,
+  #features .container,
+  #enterprise .container,
   #contact .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -681,7 +691,7 @@ footer {
 
   #about .col-md-3,
   #experience .col-md-6,
-  #education .col-md-6,
+  #enterprise .col-md-6,
   #contact .col-md-3 {
     padding: 0;
     margin: 0;
